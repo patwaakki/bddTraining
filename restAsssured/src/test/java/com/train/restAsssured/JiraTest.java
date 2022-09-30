@@ -45,7 +45,7 @@ public class JiraTest {
                 .when().post("rest/api/2/issue/{id}/attachments")
                 .then().log().all().assertThat().statusCode(200);
     }
-
+///dsnd
 
 
 }
